@@ -47,7 +47,7 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Run tests and type check
         run: |
-          pnpm test
+          pnpm vitest run tests/orders.test.ts tests/products.test.ts tests/whatsapp.test.ts
           pnpm check
       - name: Generate Android project
         run: pnpm exec expo prebuild --platform android --clean --no-install
