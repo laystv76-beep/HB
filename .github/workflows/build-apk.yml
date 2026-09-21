@@ -22,7 +22,7 @@ jobs:
     env:
       EXPO_PUBLIC_CUSTOMER_MODE: ${{ matrix.customer_mode }}
       EXPO_PUBLIC_ORDERS_MODE: ${{ matrix.orders_mode }}
-      EXPO_PUBLIC_API_BASE_URL: https://3000-if0j0sea8imrec0s3h2x8-b35b7421.us4.manus.computer
+      EXPO_PUBLIC_API_BASE_URL: https://supermart-jresym3u.manus.space
       EXPO_NO_GIT_STATUS: "1"
     steps:
       - name: Checkout project
